@@ -33,15 +33,15 @@ function HomePage() {
   }
 
   return (
-    <div className="crypto-list">
+    <div className="crypto-list container">
       {data.map((crypto) => (
         <Link
           to={`/crypto/${crypto.id}`}
           key={crypto.id}
-          className="crypto-card"
+          className="crypto-card card shadow-sm m-1"
         >
           <img src={crypto.image} alt={`${crypto.name} Logo`} />
-          <h2>{crypto.name}</h2>
+          <h2 className="crypto-name">{crypto.name}</h2>
           <p className="price">
             Price: $
             {crypto.current_price}

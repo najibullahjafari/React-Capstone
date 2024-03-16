@@ -1,9 +1,18 @@
 
 .crypto-details {
-  max-width: 800px;
+  max-width: 500px;
   margin: 0 auto;
   border-collapse: collapse;
   border: 1px solid #ddd;
+  background-color: #ddd;
+}
+
+table,
+tbody,
+tr,
+td {
+  background-color: #e0aaff !important;
+  max-width: 300px;
 }
 
 .crypto-details td {
@@ -24,11 +33,9 @@
 }
 
 .detail-page {
-  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #413e3e;
-  color: white;
+  color: #240046;
 }
 
 .home-link {
@@ -38,7 +45,7 @@
 
 .home-button {
   background-color: #3498db;
-  color: #fff;
+  color: #240046;
   border: none;
   padding: 10px 20px;
   border-radius: 4px;
@@ -61,7 +68,21 @@
 .back-icon {
   font-size: 1.5rem;
   margin-right: 5px;
-  color: #fff;
+  color: #240046;
+}
+
+.crypto-graph {
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #240046;
+}
+
+.crypto-detail {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #240046;
 }
 
 @media screen and (min-width: 768px) {
@@ -69,9 +90,21 @@
     max-width: 100%;
   }
 
+  table,
+  tbody,
+  tr,
+  td {
+    background-color: #e0aaff !important;
+    max-width: 100%;
+  }
+
   .crypto-details td {
     max-width: none;
     white-space: normal;
     text-overflow: clip;
+  }
+
+  .crypto-graph {
+    max-width: 100%;
   }
 }
