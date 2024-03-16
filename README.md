@@ -171,6 +171,7 @@ to check for styling errors:
 ### Deployment
 
 You can deploy this project using:
+here you can see how to deploy a react app in github page [here](https://github.com/gitname/react-gh-pages).
 
 Your working browser.
 
