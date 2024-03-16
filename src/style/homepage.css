@@ -9,8 +9,7 @@ body {
 
 .crypto-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  background-color: #240046;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .crypto-card {
@@ -26,6 +25,7 @@ body {
   box-shadow: 8px 8px 6px #333;
   transform: scale(0.99);
   border-radius: 9px;
+  margin: 25px;
 }
 
 .crypto-card img {
@@ -35,13 +35,13 @@ body {
 
 .crypto-card h2 {
   margin-top: 10px;
-  color: #10002b;
+  color: #5a189a;
   font-size: 14px;
 }
 
 .price {
   font-size: 14px;
-  color: #10002b;
+  color: #5a189a;
 }
 
 .details-link {
@@ -49,6 +49,10 @@ body {
   margin-top: 10px;
   color: #3498db;
   text-decoration: none;
+}
+
+.table, tbody, tr, td {
+  background-color: #e0aaff !important;
 }
 
 /* Responsive Styles */
