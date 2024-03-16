@@ -14,14 +14,14 @@
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
-  color: white;
+  color: #e0aaff;
 }
 
 .navbar-item {
   text-decoration: none;
   font-family: cursive, sans-serif;
   margin: 0 1rem;
-  color: white;
+  color: #e0aaff;
   border-radius: 5px;
   transition: background-color 0.3s ease-in-out;
 }
@@ -39,5 +39,5 @@
 .navbar-icon {
   font-size: 1.5rem;
   margin-right: 10px;
-  color: #fff;
+  color: #e0aaff;
 }
