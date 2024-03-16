@@ -41,7 +41,7 @@ function HomePage() {
           className="crypto-card card shadow-sm m-1"
         >
           <img src={crypto.image} alt={`${crypto.name} Logo`} />
-          <h2 className='crypto-name'>{crypto.name}</h2>
+          <h2 className="crypto-name">{crypto.name}</h2>
           <p className="price">
             Price: $
             {crypto.current_price}

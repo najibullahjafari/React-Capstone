@@ -7,6 +7,14 @@
   background-color: #ddd;
 }
 
+table,
+tbody,
+tr,
+td {
+  background-color: #e0aaff !important;
+  max-width: 300px;
+}
+
 .crypto-details td {
   max-width: 110px;
   border: 1px solid #ddd;
@@ -77,17 +85,15 @@
   color: #240046;
 }
 
-table, tbody, tr, td {
-  background-color: #e0aaff !important;
-  max-width: 300px;
-}
-
 @media screen and (min-width: 768px) {
   .crypto-details {
     max-width: 100%;
   }
 
-  table, tbody, tr, td {
+  table,
+  tbody,
+  tr,
+  td {
     background-color: #e0aaff !important;
     max-width: 100%;
   }

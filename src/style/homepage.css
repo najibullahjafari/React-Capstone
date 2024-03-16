@@ -51,7 +51,10 @@ body {
   text-decoration: none;
 }
 
-.table, tbody, tr, td {
+.table,
+tbody,
+tr,
+td {
   background-color: #e0aaff !important;
 }
 

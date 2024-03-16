@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faMicrophone, faCog } from '@fortawesome/free-solid-svg-icons';
 import '../style/header.css';
@@ -10,7 +9,7 @@ function Header() {
       <nav className="navbar">
         <FontAwesomeIcon icon={faBars} className="navbar-icon" />
         <div className="navbar-brand">
-          <a href='#' className="navbar-item">
+          <a href="/" className="navbar-item">
             My Crypto
           </a>
         </div>
