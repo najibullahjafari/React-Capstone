@@ -1,13 +1,13 @@
 .header {
-  background-color: #333;
-  color: white;
-  padding: 1rem 0;
+  background-color: #10002b;
+  color: #e0aaff;
+  padding: 20px;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 0 12px;
+  padding: 0 20px;
 }
 
 .navbar-brand {
