@@ -10,9 +10,9 @@ function Header() {
       <nav className="navbar">
         <FontAwesomeIcon icon={faBars} className="navbar-icon" />
         <div className="navbar-brand">
-          <Link to="/" className="navbar-item">
+          <a href='#' className="navbar-item">
             My Crypto
-          </Link>
+          </a>
         </div>
         <div className="navbar-icons">
           <FontAwesomeIcon icon={faMicrophone} className="navbar-icon" />
