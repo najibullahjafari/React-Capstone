@@ -3,22 +3,28 @@ html {
   padding: 0;
 }
 
+body {
+  background-color: #3c096c;
+}
+
 .crypto-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #240046;
 }
 
 .crypto-card {
-  border: 1px solid #ddd;
-  padding: 20px;
-  background-color: #413e3e;
+  margin: 20px !important;
+  border: 5px solid #ddd;
+  padding: 15px;
+  background-color: #e0aaff;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   text-decoration: none;
 }
 
 .crypto-card:hover {
   box-shadow: 8px 8px 6px #333;
-  transform: scale(0.9);
+  transform: scale(0.99);
   border-radius: 9px;
 }
 
@@ -29,12 +35,13 @@ html {
 
 .crypto-card h2 {
   margin-top: 10px;
-  color: #fff;
+  color: #10002b;
+  font-size: 14px;
 }
 
 .price {
-  font-weight: bold;
-  color: #2ecc71;
+  font-size: 14px;
+  color: #10002b;
 }
 
 .details-link {
