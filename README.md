@@ -28,7 +28,7 @@ My Crypto
 
 # 📖 My Crypto <a name="about-project"></a>
 
-The My Crypto is a responsive web app that show the current price of most popular crypto currencies, I used React & Redux, CSS3 and API to build this Web App.
+My Crypto is a responsive web app that show the current price of most popular crypto currencies, I used React & Redux, CSS3 and API to build this Web App.
 HERE THE DESKTOP VERSION:
 ![image](https://github.com/najibullahjafari/My-crypto/assets/121656832/71b27625-9c14-4261-aa33-4c216d412df8)
 HERE THE MOBILE VERSION:
