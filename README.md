@@ -67,7 +67,7 @@ HERE THE MOBILE VERSION:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Check out the live demo of this project [here](https://64ddfa6f503d267147502fb8--tiny-sfogliatella-1f3791.netlify.app/) and the [video](https://youtu.be/OnQLJ998MrI).
+Check out the live demo of this project [here](https://tiny-sfogliatella-1f3791.netlify.app/) and the [video](https://youtu.be/OnQLJ998MrI).
 
 
 ### Key Features <a name="key-features"></a>
